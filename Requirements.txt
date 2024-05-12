@@ -1,0 +1,6 @@
+PyQt5
+youtube_transcript_api
+transformers
+beautifulsoup4
+ollama
+requests
