@@ -1,13 +1,26 @@
-This is a simple text summarization app that will work with any web link or YouTube video that you paste in. 
-There is also a tweet generation feature that will generate a SEO friendly tweet based on the text provided.
-You need to have a Ollama installed and running for this to work as well as llama3 8b installed.
+Text Summarizer and Tweet Generator
+A simple desktop app that summarizes text, articles, or YouTube videos and generates SEO-friendly tweets.
 
-If you want to turn this into a actual app on mac download pyinstaller. 
+Requirements
 
-pip install pyinstaller
+Ollama installed and running
+LLaMA 3 8B model installed
 
-You can rebuild the executable using the .spec file in terminal.
+Getting Started
 
-pyinstaller --Instasumup.spec
+Clone this repository and navigate to the project directory.
+Install the required packages by running pip install -r requirements.txt.
+Run the app using python llamasum.py.
 
-Follow me on twitter @dylanpaulwhite
+Building an Executable (Mac only)
+
+Install PyInstaller using pip install pyinstaller.
+Run pyinstaller llamasum.spec to build an executable.
+Find the executable in the dist directory.
+
+Features
+
+Summarize text, articles, or YouTube videos
+Generate SEO-friendly tweets based on the summarized text
+Customizable prompts for summarization and tweet generation
+Follow me on Twitter @dylanpaulwhite
